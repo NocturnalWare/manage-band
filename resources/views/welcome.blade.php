@@ -20,28 +20,28 @@
                     <form action="{{route('signUp')}}" method="post">
                         <input type="hidden" name="_token" value="{{csrf_token()}}" />
                         <span class="row">
-                            <label class="col-sm-4" style="text-align:right;color:#fff">First Name </label>
-                            <input class="col-sm-8 pull-right" name="first_name" />
+                            <label class="col-xs-5" style="text-align:right;color:#fff">First Name </label>
+                            <input class="col-xs-7 pull-right" name="first_name" />
                         </span>
                         
                         <span class="row">
-                            <label class="col-sm-4" style="text-align:right;color:#fff">Last Name</label>
-                            <input class="col-sm-8 pull-right" name="last_name" />
+                            <label class="col-xs-5" style="text-align:right;color:#fff">Last Name</label>
+                            <input class="col-xs-7 pull-right" name="last_name" />
                         </span>
                         
                         <span class="row">
-                            <label class="col-sm-4" style="text-align:right;color:#fff">Email</label>
-                            <input class="col-sm-8 pull-right" name="email" placeholder="email@address.com" />
+                            <label class="col-xs-5" style="text-align:right;color:#fff">Email</label>
+                            <input class="col-xs-7 pull-right" name="email" placeholder="email@address.com" />
                         </span>
                         
                         <span class="row">
-                            <label class="col-sm-4" style="text-align:right;color:#fff">Zip Code</label>
-                            <input class="col-sm-8 pull-right" name="zip"></span>
+                            <label class="col-xs-5" style="text-align:right;color:#fff">Zip Code</label>
+                            <input class="col-xs-7 pull-right" name="zip"></span>
                         </span>
 
                         <span class="row">
-                            <label class="col-sm-4" style="text-align:right;color:#fff">I'm a </label>
-                            <select class="col-sm-8 pull-right" style="color:#000;">
+                            <label class="col-xs-5" style="text-align:right;color:#fff">I'm a </label>
+                            <select class="col-xs-7 pull-right" style="color:#000;">
                                 <option value="band">Band</option>
                                 <option value="venue">Venue</option>
                                 <option value="promoter">Promoter</option>
@@ -50,7 +50,7 @@
                         
                         <span class="row">
                             <center>
-                                <button class="btn-sm btn-success col-sm-12" style="border-radius:10px;">Sign Up for Beta</button>
+                                <button class="btn-sm btn-success col-xs-6 pull-right" style="border-radius:10px;">Sign Up for Beta</button>
                             </center>
                         </span>
                     </form>
