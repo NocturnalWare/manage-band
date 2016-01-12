@@ -1,6 +1,7 @@
 <head>
   	<meta charset="UTF-8">
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Hyperlocal Music</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<meta property="og:image" content="http://manage.band/images/frontshot.jpg">
  	<!-- Font Awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
