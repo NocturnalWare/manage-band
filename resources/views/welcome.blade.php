@@ -58,25 +58,25 @@
 
             <div class="content col-sm-10" style="background-color:#000;font-size:1.5em;">
                 <div class="img-responsive col-xs-12 pull-left row" style="background-image: url('http://manage.band/images/groupshot.jpg');background-repeat:no-repeat;height:500px;width:100%">
-                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;font-size:1em">
+                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;border-radius:15px;font-size:1em">
                         Manage your business from the studio, the road, or anywhere else that has an internet connection. <br> <br>
                     </div>
                 </div>
 
                 <div class="img-responsive col-xs-12 pull-left row" style="background-image: url('http://manage.band/images/frontshot.jpg');background-repeat:no-repeat;height:500px;width:100%">
-                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;font-size:1em">
+                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;border-radius:15px;font-size:1em">
                         From amps to Zildjian, manage your gear and make sure you have everything you need to succeed. <br> <br>
                     </div>
                 </div>
 
                 <div class="img-responsive col-xs-12 pull-left row" style="background-image: url('http://manage.band/images/showshot.jpg');background-repeat:no-repeat;height:500px;width:100%">
-                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;font-size:1em">
+                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;border-radius:15px;font-size:1em">
                         Connect with the people you need and social media to quickly set up a show or tour. <br> <br>
                     </div>
                 </div>
 
                 <div class="img-responsive col-xs-12 pull-left row" style="background-image: url('http://manage.band/images/merchshot.jpg');background-repeat:no-repeat;height:500px;width:100%">
-                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;font-size:1em">
+                    <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;border-radius:15px;font-size:1em">
                         Sell tickets & merch online, inventory management and shipping only takes a few clicks.<br><br>
                         Our transaction fee is only 7% of the whole order with no charge for listing.<br> <br>
                     </div>
