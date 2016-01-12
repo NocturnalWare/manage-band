@@ -1,10 +1,9 @@
 @extends('layouts.front')
 @section('content')
-<div class="backgroundr">
-        <div class="col-md-2"></div>
-        <div class="col-sm-12 col-md-8" style="background-color:#000;">
+        <div class="col-md-1"></div>
+        <div class="col-sm-12 col-md-10" style="background-color:#000;">
             <div class="title" style="color:#fff">
-                Manage Local Music  -- Beta Coming Soon<br>
+                Beta Coming Soon<br>
             </div>
                 <div class="container col-md-10" style="padding:10px;background-color:#404040;border-radius:10px;">
                     <form >
@@ -71,6 +70,5 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
 @stop
