@@ -4,6 +4,11 @@
         <div class="col-md-1"></div>
         <div class="col-sm-12 col-md-10" style="background-color:#000;">
             <div class="title" style="color:#fff">
+                
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+
                 @if(Session::get('message'))
                     {{Session::get('message')}}
                 @else

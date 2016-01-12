@@ -38,8 +38,13 @@ class SignUpsController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'email' => 'required|unique:sign_up|email',
+        ]);
+
         SignUp::create($request->except('_token'));
         $name = $request->input('first_name');
+        
         \Session::flash('message', "Thanks $name! We'll get back to you shortly!");
 
         return redirect()->route('home');
