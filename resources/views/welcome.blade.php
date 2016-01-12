@@ -5,18 +5,45 @@
         <div class="col-sm-12 col-md-8" style="background-color:#000;">
             <div class="title" style="color:#fff">
                 Manage Local Music  -- Beta Coming Soon<br>
-                <form>
-                    <div class="form-group" style="text-align:center">
-                        <input name="email" class="form-control col-sm-12 col-md-6"  placeholder="email@address.com">
-                        <select class="form-control col-sm-12 col-md-6" style="color:#000;">
-                            <option value="band"><span>I'm a</span> Band</option>
-                            <option value="venue"><span>I'm a</span> Venue</option>
-                            <option value="promoter"><span>I'm a</span> Promoter</option>
-                        </select>
-                        <button class="btn-lg btn-default col-sm-12">Sign Up for Beta</button>
-                    </div>
-                </form>
             </div>
+                <div class="container col-md-10" style="padding:10px;background-color:#404040;border-radius:10px;">
+                    <form >
+                        <span class="row">
+                            <label class="col-sm-3" style="color:#fff">First Name </label>
+                            <input class="col-sm-9 pull-right" name="first_name" />
+                        </span>
+                        
+                        <span class="row">
+                            <label class="col-sm-3" style="color:#fff">Last Name</label>
+                            <input class="col-sm-9 pull-right" name="last_name" />
+                        </span>
+                        
+                        <span class="row">
+                            <label class="col-sm-3" style="color:#fff">Email</label>
+                            <input class="col-sm-9 pull-right" name="email" placeholder="email@address.com" />
+                        </span>
+                        
+                        <span class="row">
+                            <label class="col-sm-3" style="color:#fff">Zip</label>
+                            <input class="col-sm-9 pull-right" name="zip"></span>
+                        </span>
+
+                        <span class="row">
+                            <label class="col-sm-3" style="color:#fff">I'm a </label>
+                            <select class="col-sm-9 pull-right" style="color:#000;">
+                                <option value="band">Band</option>
+                                <option value="venue">Venue</option>
+                                <option value="promoter">Promoter</option>
+                            </select>
+                        </span>
+                        
+                        <span class="row">
+                            <center>
+                                <button class="btn-sm btn-success col-sm-12" style="border-radius:10px;">Sign Up for Beta</button>
+                            </center>
+                        </span>
+                    </form>
+                </div>
 
             <div class="content col-sm-10" style="background-color:#000;font-size:1.5em;">
                 <div class="img-responsive pull-left row" style="background-image: url('http://manage.band/images/groupshot.jpg');background-repeat:no-repeat;height:400px;width:100%">
