@@ -19,7 +19,7 @@
                         </span>
                         
                         <span class="row">
-                            <label class="col-sm-3" style="color:#fff">Email Address</label>
+                            <label class="col-sm-3" style="color:#fff">Email</label>
                             <input class="col-sm-9 pull-right" name="email" placeholder="email@address.com" />
                         </span>
                         
