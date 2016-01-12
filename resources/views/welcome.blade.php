@@ -1,12 +1,19 @@
 @extends('layouts.front')
 @section('content')
+<div class="backgroundr">
         <div class="col-md-1"></div>
         <div class="col-sm-12 col-md-10" style="background-color:#000;">
             <div class="title" style="color:#fff">
-                Beta Coming Soon<br>
+                @if(Session::get('message'))
+                    {{Session::get('message')}}
+                @else
+                    Public Beta Coming Soon!
+                @endif
+                <br>
             </div>
                 <div class="container col-md-10" style="padding:10px;background-color:#404040;border-radius:10px;">
-                    <form >
+                    <form action="{{route('signUp')}}" method="post">
+                        <input type="hidden" name="_token" value="{{csrf_token()}}" />
                         <span class="row">
                             <label class="col-sm-3" style="color:#fff">First Name </label>
                             <input class="col-sm-9 pull-right" name="first_name" />
@@ -70,5 +77,6 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 @stop

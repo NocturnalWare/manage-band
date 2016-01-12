@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', array('as' => 'home', 'uses' => 'SignUpsController@index'));
+
+Route::post('/signup', array('as' => 'signUp', 'uses' => 'SignUpsController@store'));
