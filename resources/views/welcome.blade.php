@@ -19,12 +19,12 @@
                         </span>
                         
                         <span class="row">
-                            <label class="col-sm-3" style="color:#fff">Email</label>
+                            <label class="col-sm-3" style="color:#fff">Email Address</label>
                             <input class="col-sm-9 pull-right" name="email" placeholder="email@address.com" />
                         </span>
                         
                         <span class="row">
-                            <label class="col-sm-3" style="color:#fff">Zip</label>
+                            <label class="col-sm-3" style="color:#fff">Zip Code</label>
                             <input class="col-sm-9 pull-right" name="zip"></span>
                         </span>
 
