@@ -57,7 +57,7 @@
                 </div>
 
             <div class="content col-sm-10" style="background-color:#000;font-size:1.5em;">
-                <div class="img-responsive col-xs-12 pull-left row" style="background-image: url('http://manage.band/images/groupshot.jpg');background-repeat:no-repeat;height:200px;width:100%">
+                <div class="img-responsive col-xs-12 pull-left row" style="background-image: url('http://manage.band/images/groupshot.jpg');background-repeat:no-repeat;height:500px;width:100%">
                     <div class="col-sm-12 col-md-6 pull-right" style="background-color:#000;color:#fff;height:400px;padding-top:5%;opacity:.8;font-size:1em">
                         Manage your business from the studio, the road, or anywhere else that has an internet connection. <br> <br>
                     </div>
