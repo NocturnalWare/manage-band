@@ -1,13 +1,25 @@
 @extends('layouts.master')
 
 @section('layout')
+  <div class="title" style="width:100%;">
+      
+      @foreach ($errors->all() as $error)
+          <li>{{ $error }}</li>
+      @endforeach
 
-    <div class="backgroundr" style="overflow-y:hidden">
+      @if(Session::get('message'))
+          {{Session::get('message')}}
+      @else
+          Public Beta Coming Soon!
+      @endif
+      <br>
+  </div>
+    <div class="contentr" style="overflow-y:hidden;height:93%;overflow-x:hidden">
 
-<nav class="navbar navbar-default" style="background-color:#000;padding:0px;">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+    <div class="navbar-header" >
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -38,8 +50,8 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-@yield('content')
-
+      <div class="backgroundr" style="width:101%;overflow-x:hidden">
+        @yield('content')
+      </div>
     </div>
 @stop
