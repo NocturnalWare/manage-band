@@ -50,7 +50,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-      <div class="backgroundr" style="width:101%;overflow-x:hidden">
+      <div class="backgroundr" style=";width:101%;overflow-x:hidden">
         @yield('content')
       </div>
     </div>
