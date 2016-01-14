@@ -26,10 +26,10 @@
                         <div class="row" style="display:flex;min-height:600px;background-image: url('http://manage.band/images/connect.jpg');background-repeat:no-repeat;background-size:100%;"></div>
                         <div class="row" style="background-color:#000;color:#fff;padding-top:9%;border-radius:15px;text-align:center">
                             Sell tickets & merch online, manage inventory and shipping with only a few clicks.<br><br>
-                            Our transaction fee is only 7% of the whole order -- no other charges.<br> <br>
                             <button type="button" class="btn btn-default btn-lg" style="width:50%;height:100px" data-toggle="modal" data-target="#myModal">
-                                Sign Up! <i class="fa fa-arrow-right"></i>
+                                Sign Up for Free! <i class="fa fa-arrow-right"></i>
                             </button>
+                            Our transaction fee is only 7% of the whole order -- no other charges.<br> <br>
                         </div>
                     </div>
                 </div>
