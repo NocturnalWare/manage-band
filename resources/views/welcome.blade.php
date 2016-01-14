@@ -12,12 +12,14 @@
                           <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                           </ol>
 
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                              <img class="img-responsive col-sm-12" style="" src="http://manage.band/images/n64.jpg">
+                              <img class="img-responsive col-sm-12" style="" src="http://manage.band/images/n64.png">
                               <div class="carousel-caption">
                                 <h3 style="background-color:#000;opacity:.8;color:#fff">
                                     Manage your business from the studio, the road, or anywhere else that has an internet connection. 
@@ -27,7 +29,29 @@
                             <div class="item">
                               <img class="img-responsive col-sm-12" src="http://manage.band/images/brennandrums2.jpg">
                               <div class="carousel-caption">
+                                <h3 style="background-color:#000;opacity:.8;color:#fff">
                                     From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
+                                </h3>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive col-sm-12" src="http://manage.band/images/brennandrums2.jpg">
+                              <div class="carousel-caption">
+                                <h3 style="background-color:#000;opacity:.8;color:#fff">
+                                    From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
+                                </h3>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive col-sm-12" src="http://manage.band/images/brennandrums2.jpg">
+                              <div class="carousel-caption">
+                                <h3 style="background-color:#000;opacity:.8;color:#fff">
+                                    Sell tickets & merch online, manage inventory and shipping with only a few clicks.<br><br>
+                                    <button type="button" class="btn btn-default btn-lg" style="width:50%;height:100px" data-toggle="modal" data-target="#myModal">
+                                        Sign Up for Free! <i class="fa fa-arrow-right"></i>
+                                    </button><br><br>
+                                    Our transaction fee is only 7% of the whole order -- no other charges.<br> <br>
+                                </h3>
                               </div>
                             </div>
                           </div>
