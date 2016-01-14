@@ -20,7 +20,7 @@
                           <div class="carousel-inner" role="listbox">
                             <div class="item active">
                                 <center>
-                              <img class="img-responsive col-sm-12" style="max-height:300px;" src="http://manage.band/images/n64.png">
+                              <img class="img-responsive col-sm-12" style="min-height:300px;" src="http://manage.band/images/n64.png">
                               <div class="carousel-caption">
                                 <h3 style="background-color:#000;opacity:.8;color:#fff">
                                     Manage your business from the studio, the road, or anywhere else that has an internet connection. 
@@ -30,7 +30,7 @@
                             </div>
                             <div class="item">
                                 <center>
-                              <img class="img-responsive col-sm-12" style="max-height:300px;" src="http://manage.band/images/brennandrums2.jpg">
+                              <img class="img-responsive col-sm-12" style="min-height:300px;" src="http://manage.band/images/brennandrums2.jpg">
                               <div class="carousel-caption">
                                 <h3 style="background-color:#000;opacity:.8;color:#fff">
                                     From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
@@ -41,7 +41,7 @@
                             <div class="item">
                                 <center>
 
-                              <img class="img-responsive col-sm-12" style="max-height:300px;"  src="http://manage.band/images/connect.jpg">
+                              <img class="img-responsive col-sm-12" style="min-height:300px;"  src="http://manage.band/images/connect.jpg">
                               <div class="carousel-caption">
                                 <h3 style="background-color:#000;opacity:.8;color:#fff">
                                     From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
@@ -51,9 +51,9 @@
                             </div>
                             <div class="item">
                                 <center>
-                              <img class="img-responsive col-sm-12" style="max-height:300px;"  src="http://manage.band/images/connect.jpg">
+                              <img class="img-responsive col-sm-12" style="min-height:300px;"  src="http://manage.band/images/connect.jpg">
                               <div class="carousel-caption">
-                                <h3 style="background-color:#000;height:100%;color:#fff;font-size:1.5em">
+                                <h3 style="padding:10px;background-color:#000;height:100%;color:#fff;font-size:1em">
                                     Sell tickets & merch online, manage inventory and shipping with only a few clicks.<br><br>
 
                                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
