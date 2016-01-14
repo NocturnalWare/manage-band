@@ -44,7 +44,7 @@
                               <img class="img-responsive col-sm-12" style="min-height:300px;"  src="http://manage.band/images/connect.jpg">
                               <div class="carousel-caption">
                                 <h3 style="background-color:#000;opacity:.8;color:#fff">
-                                    From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
+                                    Connect with social media and the people you need to manage a show or tour.
                                 </h3>
                               </div>
                           </center>
