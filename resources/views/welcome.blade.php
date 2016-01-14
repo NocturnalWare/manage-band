@@ -21,11 +21,11 @@
                         </div>
 
                         <div class="row" style="background-color:#000;color:#fff;opacity:.8;padding-top:9%;border-radius:15px;text-align:center">
-                                Connect with social media and the people you need to set up a show or tour. <br> <br>
+                                Connect with social media and the people you need to manage a show or tour. <br> <br>
                         </div>
                         <div class="row" style="display:flex;min-height:600px;background-image: url('http://manage.band/images/connect.jpg');background-repeat:no-repeat;background-size:100%;"></div>
                         <div class="row" style="background-color:#000;color:#fff;padding-top:9%;border-radius:15px;text-align:center">
-                            Sell tickets & merch online, inventory management and shipping only takes a few clicks.<br><br>
+                            Sell tickets & merch online, manage inventory and shipping with only takes a few clicks.<br><br>
                             Our transaction fee is only 7% of the whole order with no other charges.<br> <br>
                             <button type="button" class="btn btn-default btn-lg" style="width:50%;height:100px" data-toggle="modal" data-target="#myModal">
                                 Sign Up! <i class="fa fa-arrow-right"></i>
