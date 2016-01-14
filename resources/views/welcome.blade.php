@@ -83,7 +83,7 @@
                             <div class="col-sm-12" style="background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
                                     Manage your business from the studio, the road, or anywhere else that has an internet connection.
                             </div>
-                            <div class="row" style="min-height:600px"></div>
+                            <div class="row" style="min-height:500px;"></div>
                             </div>
                         <!-- spacer -->
                         <div class="row" style="background-image: url('http://manage.band/images/brennandrums2.jpg');background-repeat:no-repeat;background-size:100%">
