@@ -2,6 +2,7 @@
 .backgroundr{
 	height: 100%;
 	width: 100%;
+font-family: 'Cambay', sans-serif;
 
 	overflow-y:scroll; 
 	/*min-height: 1900px;*/
@@ -19,7 +20,6 @@
 }
 .main-block{
 	opacity: .9;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background-color: #000;
 	color:#000;
 	height:90%;

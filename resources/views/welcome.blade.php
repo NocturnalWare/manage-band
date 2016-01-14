@@ -76,10 +76,10 @@
                             <span class="sr-only">Next</span>
                           </a>
                         </div>
-                        <div style="max-width:1200px;margin-right:10%;margin-left:15%;">
-                    <div class="row hidden-xs col-sm-12" style="width:100%;background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:3em">
+                        <div style="max-width:1024px;margin-right:10%;margin-left:15%;">
+                    <div class="row hidden-xs col-sm-12" style="width:100%;background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:2em">
                       
-                        <div class="row" style=";background-image: url('http://manage.band/images/n64.jpg');background-repeat:no-repeat;background-size:100%;">
+                        <div class="row" style=";background-image: url('http://manage.band/images/n64.png');background-repeat:no-repeat;background-size:100%;">
                             <div class="col-sm-12" style="background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
                                     Manage your business from the studio, the road, or anywhere else that has an internet connection.
                             </div>
