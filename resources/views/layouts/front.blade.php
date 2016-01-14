@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('layout')
-  <div class="title" style="width:100%;">
+  <div class="title"  style="background-color:#404040;color:#fff;width:100%;">
       
       @foreach ($errors->all() as $error)
           <li>{{ $error }}</li>
@@ -10,14 +10,17 @@
       @if(Session::get('message'))
           {{Session::get('message')}}
       @else
-          Public Beta Coming Soon!
+          Public Beta Coming Soon!                             
+          <button type="button" class="btn" style="background-color:#404040;color:#fff" data-toggle="modal" data-target="#myModal">
+            Sign Up! <i class="fa fa-arrow-right"></i>
+          </button>
       @endif
       <br>
   </div>
-    <div class="contentr" style="overflow-y:hidden;height:93%;overflow-x:hidden">
+    <div class="contentr" style="overflow-y:hidden;overflow-x:hidden">
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<nav class="navbar">
+  <div class="container-fluid" style="background-color:#404040;color:#fff">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header" >
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,7 +29,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Manage.Band</a>
+      <a class="navbar-brand" href="#"  style="background-color:#404040;color:#fff">Manage.Band</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,17 +37,17 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#" class="col-sm-12 btn"><i style="font-size:1.5em" class="fa fa-music"></i> Bands</a>          
+          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-music"></i> Bands</a>          
         </li>
         <li>
-          <a href="#" class="col-sm-12 btn"><i style="font-size:1.5em" class="fa fa-users"></i> Promoters</a>
+          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-users"></i> Promoters</a>
         </li>
         <li>
-          <a href="#" class="col-sm-12 btn"><i style="font-size:1.5em" class="fa fa-home"></i> Venues</a>
+          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-home"></i> Venues</a>
         </li>
         <li>
         <li>
-          <a href="#" class="col-sm-12 btn">Login <i style="font-size:1.5em" class="fa fa-user"></i></a>
+          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff">Login <i style="font-size:1.5em" class="fa fa-user"></i></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

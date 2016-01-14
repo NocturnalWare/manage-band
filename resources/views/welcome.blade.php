@@ -3,8 +3,53 @@
 <div style="margin-bottom:50px;">
     <div class="col-md-1"></div>
     <div class="col-sm-12 col-md-10" style=";border-radius:10px;">
-        <div class="container col-md-8" style="padding:10px;background-color:#404040;border-radius:10px;">
-            <form action="{{route('signUp')}}" method="post">
+        <div class="row">
+            <div class="row">
+
+                    <div class="row" style="background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;font-size:4em">
+
+                        <div class="row" style="min-height:700px;background-image: url('http://manage.band/images/n64.jpg');background-repeat:no-repeat;background-size:100%;">
+                        <div class="row" style="background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
+                            Manage your business from the studio, the road, or anywhere else that has an internet connection. <br> <br>
+                        </div>
+                        <!-- spacer -->
+                        <div class="row" style="min-height:400px"></div>
+
+                        <div class="row" style="background-color:#000;color:#fff;opacity:.8;border-radius:15px;text-align:center">
+                                From amps to Zildjian, manage your gear and make sure you have everything you need to succeed. <br> <br>
+                            <div class="row" style="margin-left:2%;min-height:600px;background-image: url('http://manage.band/images/brennandrums2.jpg');background-repeat:no-repeat;background-size:99%;"></div>
+                        </div>
+
+                        <div class="row" style="background-color:#000;color:#fff;opacity:.8;padding-top:9%;border-radius:15px;text-align:center">
+                                Connect with social media and the people you need to set up a show or tour. <br> <br>
+                        </div>
+                        <div class="row" style="display:flex;min-height:600px;background-image: url('http://manage.band/images/connect.jpg');background-repeat:no-repeat;background-size:100%;"></div>
+                        <div class="row" style="background-color:#000;color:#fff;padding-top:9%;border-radius:15px;text-align:center">
+                            Sell tickets & merch online, inventory management and shipping only takes a few clicks.<br><br>
+                            Our transaction fee is only 7% of the whole order with no other charges.<br> <br>
+                            <button type="button" class="btn btn-default btn-lg" style="width:50%;height:100px" data-toggle="modal" data-target="#myModal">
+                                Sign Up! <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body" style="background-color:#404040">
+                    <form action="{{route('signUp')}}" method="post">
                 <input type="hidden" name="_token" value="{{csrf_token()}}" />
                 <span class="row">
                     <label class="col-xs-5" style="text-align:right;color:#fff">First Name </label>
@@ -41,41 +86,11 @@
                     </center>
                 </span>
             </form>
-        </div>
+      </div>
 
-        <div class=" col-sm-12" style="font-size:1.5em;margin-bottom:90px;">
-            <div class="col-sm-12" style="border-radius:10px;">
-                <img class="img-responsive col-xs-12 col-md-8" src="http://manage.band/images/n64.jpg" />
-                    <div class="col-xs-12 col-md-4 pull-right" style="background-color:#000;color:#fff;padding-top:9%;opacity:.8;border-radius:15px;font-size:1em">
-                        Manage your business from the studio, the road, or anywhere else that has an internet connection. <br> <br>
-                    </div>
-                </div>
-
-            <div class="col-sm-12" style="border-radius:10px;">
-                <img class="img-responsive col-xs-12 col-md-8" src="http://manage.band/images/brennandrums2.jpg" />
-                    <div class="col-xs-12 col-md-4 pull-right" style="background-color:#000;color:#fff;padding-top:9%;opacity:.8;border-radius:15px;font-size:1em">
-                        From amps to Zildjian, manage your gear and make sure you have everything you need to succeed. <br> <br>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-sm-12" style="border-radius:10px;">
-                <img class="img-responsive col-xs-12 col-md-8" src="http://manage.band/images/connect.jpg" />
-                    <div class="col-xs-12 col-md-4 pull-right" style="background-color:#000;color:#fff;padding-top:9%;opacity:.8;border-radius:15px;font-size:1em">
-                        Connect with the people you need and social media to quickly set up a show or tour. <br> <br>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-sm-12" style="border-radius:10px;">
-                <img class="img-responsive col-xs-12 col-md-8" src="http://manage.band/images/merch.jpg" />
-                    <div class="col-xs-12 col-md-4 pull-right" style="background-color:#000;color:#fff;padding-top:9%;opacity:.8;border-radius:15px;font-size:1em">
-                        Sell tickets & merch online, inventory management and shipping only takes a few clicks.<br><br>
-                        Our transaction fee is only 7% of the whole order with no other charges.<br> <br>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+  </div>
 </div>
+
+
 @stop
