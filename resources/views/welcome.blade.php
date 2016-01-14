@@ -6,31 +6,28 @@
         <div class="row">
             <div class="row">
 
-                    <div class="row" style="background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:3em">
                         
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                           <!-- Indicators -->
                           <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                           </ol>
 
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner" role="listbox">
-                            <div class="item active col-sm-12">
-                              <img class="img-responsive" src="http://manage.band/images/n64.jpg">
-                              <div class="carousel-caption" style="background-color:#000;color:#fff;opacity:.8">
-                                Manage your business from the studio, the road, or anywhere else that has an internet connection. 
+                            <div class="item active">
+                              <img class="img-responsive col-sm-12" style="" src="http://manage.band/images/n64.jpg">
+                              <div class="carousel-caption">
+                                <h1>Manage your business from the studio, the road, or anywhere else that has an internet connection. </h1>
                               </div>
                             </div>
                             <div class="item">
-                              <img src="">
+                              <img class="img-responsive col-sm-12" style="max-height:700px;" src="http://manage.band/images/brennandrums2.jpg">
                               <div class="carousel-caption">
-                                ...
+                                    From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
                               </div>
                             </div>
-                            ...
                           </div>
 
                           <!-- Controls -->
@@ -44,6 +41,7 @@
                           </a>
                         </div>
 
+                    <div class="row" style="background-color:#000;color:#fff;padding:2%;border-radius:15px;">
 
                         <div class="row" style="height:100%;background-image: url('http://manage.band/images/n64.jpg');background-repeat:no-repeat;background-size:100%;">
                             <div class="col-sm-12" style="height:100%;background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
@@ -52,7 +50,6 @@
                         <!-- spacer -->
                         <div class="row" style="background-image: url('http://manage.band/images/brennandrums2.jpg');background-repeat:no-repeat;background-size:100%">
                             <div class="col-sm-12" style="background-color:#000;color:#fff;opacity:.8;border-radius:15px;text-align:center">
-                                    From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
                             </div>
                         </div>
 
