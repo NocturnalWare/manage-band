@@ -1,8 +1,8 @@
 @extends('layouts.front')
 @section('content')
 <div style="margin-bottom:50px;">
-    <div class="col-md-1"></div>
-    <div class="col-sm-12 col-md-10" style=";border-radius:10px;">
+    <div class="col-lg-2 col-md-1"></div>
+    <div class="col-xs-12 col-lg-8 col-md-10" style=";border-radius:10px;">
         <div class="row">
             <div class="row">
 
@@ -76,9 +76,9 @@
                             <span class="sr-only">Next</span>
                           </a>
                         </div>
-
-                    <div class="row hidden-xs" style="background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:3em">
-
+                        <div style="max-width:1200px;margin-right:10%;margin-left:15%;">
+                    <div class="row hidden-xs col-sm-12" style="width:100%;background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:3em">
+                      
                         <div class="row" style=";background-image: url('http://manage.band/images/n64.jpg');background-repeat:no-repeat;background-size:100%;">
                             <div class="col-sm-12" style="background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
                                     Manage your business from the studio, the road, or anywhere else that has an internet connection.
