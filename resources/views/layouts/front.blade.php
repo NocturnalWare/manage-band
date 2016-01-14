@@ -22,12 +22,12 @@
 <nav class="navbar">
   <div class="container-fluid" style="background-color:#404040;color:#fff">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header"  style="background-color:#404040;color:#fff">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="background-color:#404040;color:#fff">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar" style="background-color:#fff"></span>
+        <span class="icon-bar" style="background-color:#fff"></span>
+        <span class="icon-bar" style="background-color:#fff"></span>
       </button>
       <a class="navbar-brand" href="#"  style="background-color:#404040;color:#fff">Manage.Band</a>
     </div>
