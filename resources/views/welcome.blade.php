@@ -7,7 +7,7 @@
             <div class="row">
 
                         
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <div id="carousel-example-generic" class="hidden-sm hidden-lg hidden-md carousel slide" data-ride="carousel">
                           <!-- Indicators -->
                           <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -19,11 +19,13 @@
                             <div class="item active">
                               <img class="img-responsive col-sm-12" style="" src="http://manage.band/images/n64.jpg">
                               <div class="carousel-caption">
-                                <h1>Manage your business from the studio, the road, or anywhere else that has an internet connection. </h1>
+                                <h3 style="background-color:#000;opacity:.8;color:#fff">
+                                    Manage your business from the studio, the road, or anywhere else that has an internet connection. 
+                                </h3>
                               </div>
                             </div>
                             <div class="item">
-                              <img class="img-responsive col-sm-12" style="max-height:700px;" src="http://manage.band/images/brennandrums2.jpg">
+                              <img class="img-responsive col-sm-12" src="http://manage.band/images/brennandrums2.jpg">
                               <div class="carousel-caption">
                                     From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
                               </div>
@@ -41,16 +43,20 @@
                           </a>
                         </div>
 
-                    <div class="row" style="background-color:#000;color:#fff;padding:2%;border-radius:15px;">
+                    <div class="row hidden-xs" style="background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:3em">
 
-                        <div class="row" style="height:100%;background-image: url('http://manage.band/images/n64.jpg');background-repeat:no-repeat;background-size:100%;">
-                            <div class="col-sm-12" style="height:100%;background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
-                                <br> <br>
+                        <div class="row" style=";background-image: url('http://manage.band/images/n64.jpg');background-repeat:no-repeat;background-size:100%;">
+                            <div class="col-sm-12" style="background-color:#000;color:#fff;padding:2%;opacity:.8;border-radius:15px;text-align:center">
+                                    Manage your business from the studio, the road, or anywhere else that has an internet connection. <br><br>
+                            </div>
+                            <div class="row" style="min-height:500px"></div>
                             </div>
                         <!-- spacer -->
                         <div class="row" style="background-image: url('http://manage.band/images/brennandrums2.jpg');background-repeat:no-repeat;background-size:100%">
                             <div class="col-sm-12" style="background-color:#000;color:#fff;opacity:.8;border-radius:15px;text-align:center">
+                                From amps to Zildjian, manage your gear and make sure you have everything you need to succeed.
                             </div>
+                            <div class="row" style="min-height:500px"></div>
                         </div>
 
                         <div class="row" style="background-image: url('http://manage.band/images/connect.jpg');background-repeat:no-repeat;background-size:100%">
