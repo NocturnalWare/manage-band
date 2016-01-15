@@ -23,7 +23,7 @@
                               <img class="img-responsive col-sm-12" style="min-height:300px;" src="http://manage.band/images/n64.png">
                               <div class="carousel-caption">
                                 <h3 style="background-color:#000;opacity:.8;color:#fff">
-                                    Manage your business from the studio, the road, or anywhere else that has an internet connection. 
+                                    Manage your business from the studio, the road, or anywhere else that has an internet connection. <br>
                                 </h3>
                               </div>
                           </center>
@@ -76,27 +76,28 @@
                             <span class="sr-only">Next</span>
                           </a>
                         </div>
+                        <div class="hidden-sm hidden-lg hidden-md row">
+                            <div class="col-sm-12 well well-sm" style="font-size:.5em">
+                                @include('features')
+                                <button type="button" class="btn btn-lg" style="width:100%" data-toggle="modal" data-target="#myModal">
+                                    Sign Up for Free! <i class="fa fa-arrow-right"></i>
+                                </button><br><br>
+                            </div>
+                        </div>
+
                         <div style="max-width:1024px;margin-right:10%;margin-left:15%;">
                     <div class="row hidden-xs col-sm-12" style="width:100%;background-color:#000;color:#fff;padding:2%;border-radius:15px;font-size:2em">
                       
                         <div class="row" style=";background-image: url('http://manage.band/images/n64.png');background-repeat:no-repeat;background-size:100%;">
                             <div class="col-sm-12" style="background-color:#000;color:#fff;padding:2%;opacity:.9;border-radius:15px;text-align:center">
                                     Manage your business from the studio, the road, or anywhere else that has an internet connection.
-                                    <span id="showFeature" class="btn" style="color:#000;background-color:#fff;width:100%;font-size:.7em"><span>See Features</span> <i class="fa fa-chevron-circle-down"></i></span>
+                                    <span class="showFeature btn" style="color:#000;background-color:#fff;width:100%;font-size:.7em"><span>See Features</span> <i class="fa fa-chevron-circle-down"></i></span>
                             </div>
                             <div class="col-sm-12 mbandFeatures" style="height:500px;"></div>
                                 <div class="col-sm-12 mband-feature-overlay hidden mbandFeatures">
                                     <div class="row mband-overlay">
                                         <div class="well well-sm ">
-                                            <ul class="list-group">
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-facebook-official mband-feature-icon"></i> Log In with Facebook </li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-calendar mband-feature-icon"></i> Easily Schedule Shows</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-money mband-feature-icon"></i> Get Paid and Manage Finances </li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-shopping-cart mband-feature-icon"></i> Sell Merch, Music, and Tickets</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-rocket mband-feature-icon"></i> One-click Shipping Labels</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-line-chart mband-feature-icon"></i> Plan Orders and Track Inventory</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-percent mband-feature-icon"></i> Low Transaction Fees</li>
-                                            </ul>
+                                            @include('features')
                                             <button type="button" class="btn btn-lg" style="width:100%" data-toggle="modal" data-target="#myModal">
                                                 Sign Up for Free! <i class="fa fa-arrow-right"></i>
                                             </button><br><br>
@@ -131,7 +132,6 @@
             </div>
         </div>
     </div>
-</div>
 
 
 <!-- Button trigger modal -->
@@ -184,15 +184,7 @@
                 </span>
             </form>
                                                     <div class="well well-sm ">
-                                            <ul class="list-group">
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-facebook-official mband-feature-icon"></i> Log In with Facebook </li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-calendar mband-feature-icon"></i> Easily Schedule Shows</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-money mband-feature-icon"></i> Get Paid and Manage Finances </li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-shopping-cart mband-feature-icon"></i> Sell Merch, Music, and Tickets</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-rocket mband-feature-icon"></i> One-click Shipping Labels</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-line-chart mband-feature-icon"></i> Plan Orders and Track Inventory</li>
-                                              <li class="list-group-item mband-feature-item"><i class="col-sm-2 fa fa-percent mband-feature-icon"></i> Low Transaction Fees</li>
-                                            </ul>
+                                            @include('features')
       </div>
 
     </div>
@@ -200,7 +192,7 @@
 </div>
 
 <script>
-    $('#showFeature').on('click', function(){
+    $('.showFeature').on('click', function(){
         $(this).find('.fa').toggleClass('fa-chevron-circle-down').toggleClass('fa-chevron-circle-up');
         showFeatures();
     });
