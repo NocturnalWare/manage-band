@@ -9,13 +9,8 @@
 
       @if(Session::get('message'))
           {{Session::get('message')}}
-      @else
-          Public Beta Coming Soon!                             
-          <button type="button" class="btn" style="background-color:#404040;color:#fff" data-toggle="modal" data-target="#myModal">
-            Sign Up! <i class="fa fa-arrow-right"></i>
-          </button>
+
       @endif
-      <br>
   </div>
     <div class="contentr" style="overflow-y:hidden;overflow-x:hidden">
 
