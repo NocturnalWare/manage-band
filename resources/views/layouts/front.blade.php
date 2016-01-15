@@ -32,17 +32,25 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-music"></i> Bands</a>          
+          <span class="col-sm-12 btn" style="width:100%;font-size:1.5em;background-color:#404040;color:#fff">Public Beta Coming Soon!</span>
+        </li>        
+        <li>
+          <button type="button" class="btn btn-lg" style="background-color:#404040;width:100%" data-toggle="modal" data-target="#myModal">
+            Sign Up for Free! <i class="fa fa-arrow-right"></i>
+          </button>
         </li>
         <li>
-          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-users"></i> Promoters</a>
+          <a href="#" class="col-sm-12 btn hidden" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-music"></i> Bands</a>          
         </li>
         <li>
-          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-home"></i> Venues</a>
+          <a href="#" class="col-sm-12 btn hidden" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-users"></i> Promoters</a>
+        </li>
+        <li>
+          <a href="#" class="col-sm-12 btn hidden" style="background-color:#404040;color:#fff"><i style="font-size:1.5em" class="fa fa-home"></i> Venues</a>
         </li>
         <li>
         <li>
-          <a href="#" class="col-sm-12 btn" style="background-color:#404040;color:#fff">Login <i style="font-size:1.5em" class="fa fa-user"></i></a>
+          <a href="#" class="col-sm-12 btn hidden" style="background-color:#404040;color:#fff">Login <i style="font-size:1.5em" class="fa fa-user"></i></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

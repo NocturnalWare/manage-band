@@ -52,7 +52,7 @@ font-family: 'Cambay', sans-serif;
 }
 
 .mband-feature-icon{
-	font-size: 1.5em;
+	font-size: 1em;
 }
 .mband-feature-item{
 	font-size: 2em;
