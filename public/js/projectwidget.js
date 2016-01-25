@@ -140,6 +140,7 @@ window.onload = function(){
 			    	+'</label>'
 			    	+'<div class="col-sm-10">&nbsp'
 			    		+"<input type='hidden' class='form-control' role='uploadcare-uploader'  data-multiple='data-multiple' data-clearable='data-clearable' name='uploadcare_group'>"
+            			+'<span class="help-block">Please upload any files you have to help us better understand your project.<br> (Ex: Pictures, drawings, spec sheets, CAD drawings, etc.)</span>'
 			    	+'</div>'
 					+'<div class="col-sm-12">&nbsp</div>'
 					+'<label class="col-sm-2">'
